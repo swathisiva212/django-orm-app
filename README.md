@@ -10,12 +10,13 @@ Include your ER diagram here
 ## DESIGN STEPS
 
 ### STEP 1:
-
+clone the problem from github
 ### STEP 2:
-
+create a new app
 ### STEP 3:
-
-Write your own steps
+enter the code admin.py and model.py
+### step4:
+execute a django admin and create a 10 employees
 
 ## PROGRAM
 Model.py
@@ -48,3 +49,4 @@ admin.site.register(Employee,EmployeeAdmin)
 
 
 ## RESULT
+program executed sucessfully.
