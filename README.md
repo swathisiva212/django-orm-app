@@ -18,12 +18,14 @@ Include your ER diagram here
 Write your own steps
 
 ## PROGRAM
+```
+![WhatsApp Image 2023-12-30 at 22 45 33_be22b87b](https://github.com/swathisiva212/django-orm-app/assets/155249892/43f786b5-c583-4fe4-8903-8f5692b28a2f)
 
-Include your code here
 
 ## OUTPUT
+![WhatsApp Image 2023-12-30 at 22 43 43_f49f0340](https://github.com/swathisiva212/django-orm-app/assets/155249892/8f474b9c-45a1-4c28-9c4d-f44ea8c3c0e8)
 
-Include the screenshot of your admin page.
+
 
 
 ## RESULT
