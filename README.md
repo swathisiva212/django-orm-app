@@ -18,12 +18,31 @@ Include your ER diagram here
 Write your own steps
 
 ## PROGRAM
-```
-![WhatsApp Image 2023-12-30 at 22 45 33_be22b87b](https://github.com/swathisiva212/django-orm-app/assets/155249892/43f786b5-c583-4fe4-8903-8f5692b28a2f)
+Model.py
+
+from django.db import models
+from django.contrib import admin
+class Employee (models.Model):
+    eid=models.CharField(max_length=20,help_text="Employee ID")
+    name=models.CharField(max_length=100)
+    salary=models.IntegerField()
+    age=models.IntegerField()
+    email=models.EmailField()
+
+
+class EmployeeAdmin(admin.ModelAdmin):
+    list_display=('eid','name','salary','age','email')
+
+Admin.py
+
+from django.contrib import admin
+from .models import Employee,EmployeeAdmin
+admin.site.register(Employee,EmployeeAdmin)
+
 
 
 ## OUTPUT
-![WhatsApp Image 2023-12-30 at 22 43 43_f49f0340](https://github.com/swathisiva212/django-orm-app/assets/155249892/8f474b9c-45a1-4c28-9c4d-f44ea8c3c0e8)
+![image](https://github.com/swathisiva212/django-orm-app/assets/155249892/8ae24fa8-ad6f-4b05-ae82-5c0dada4ba7b)
 
 
 
